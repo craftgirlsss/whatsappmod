@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		418488BF2BE639A900088C98 /* WhatsappModApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418488BE2BE639A900088C98 /* WhatsappModApp.swift */; };
-		418488C12BE639A900088C98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418488C02BE639A900088C98 /* ContentView.swift */; };
 		418488C32BE639AD00088C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418488C22BE639AD00088C98 /* Assets.xcassets */; };
 		418488C62BE639AD00088C98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418488C52BE639AD00088C98 /* Preview Assets.xcassets */; };
+		418488CD2BE63ADE00088C98 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418488CC2BE63ADE00088C98 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		418488BB2BE639A900088C98 /* WhatsappMod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsappMod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418488BE2BE639A900088C98 /* WhatsappModApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappModApp.swift; sourceTree = "<group>"; };
-		418488C02BE639A900088C98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		418488C22BE639AD00088C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418488C52BE639AD00088C98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		418488CC2BE63ADE00088C98 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = ../../../../.Trash/MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 		418488BD2BE639A900088C98 /* WhatsappMod */ = {
 			isa = PBXGroup;
 			children = (
+				418488CC2BE63ADE00088C98 /* MainTabView.swift */,
 				418488BE2BE639A900088C98 /* WhatsappModApp.swift */,
-				418488C02BE639A900088C98 /* ContentView.swift */,
 				418488C22BE639AD00088C98 /* Assets.xcassets */,
 				418488C42BE639AD00088C98 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418488C12BE639A900088C98 /* ContentView.swift in Sources */,
+				418488CD2BE63ADE00088C98 /* MainTabView.swift in Sources */,
 				418488BF2BE639A900088C98 /* WhatsappModApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
